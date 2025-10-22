@@ -1,4 +1,4 @@
-+cmd install help.js const { getPrefix } = global.utils;
+const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
 
 module.exports = {
@@ -110,4 +110,4 @@ function roleTextToString(roleText) {
     default:
       return "Unknown role";
   }
-	      }
+}
